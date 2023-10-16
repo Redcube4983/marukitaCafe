@@ -63,6 +63,11 @@
         <li class="sp-tab"><a href="<?php echo esc_url( home_url( '/privacy-policy/') ); ?>">プライバシーポリシー</a></li>
         <li class="sp-tab"><a href="<?php echo esc_url( home_url( '/contact/') ); ?>">お問い合わせ</a></li>
         <li>
+          <div class="sns_icon_wrap">
+            <div class="head_icon01"><img src="/images/icon_insta.svg" alt="instagramアイコン"></div>
+          </div>
+        </li>
+        <li>
           <div class="sns_wrap">
             <img src="<?php echo get_template_directory_uri(); ?>/imges/icon_insta.svg" alt="instagramアイコン">
 
