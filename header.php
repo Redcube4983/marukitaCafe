@@ -62,6 +62,7 @@
         <li class="sp-tab"><a href="<?php echo esc_url( home_url( '/about/') ); ?>">運営会社</a></li>
         <li class="sp-tab"><a href="<?php echo esc_url( home_url( '/privacy-policy/') ); ?>">プライバシーポリシー</a></li>
         <li class="sp-tab"><a href="<?php echo esc_url( home_url( '/contact/') ); ?>">お問い合わせ</a></li>
+        <li><div class="sns_wrap"></div></li>
         <li>
           <div class="sns_icon_wrap"></div>
         </li>
