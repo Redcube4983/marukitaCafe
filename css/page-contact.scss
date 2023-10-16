@@ -1,0 +1,355 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.mw_wp_form {
+    margin-top: -80px;
+    padding-top: 100px;
+    @media only screen and (min-width: 960px) {
+        margin-top: -100px;
+        padding-top: 120px;
+    }
+  }
+.Form-Item {
+    position: relative;
+    padding: 20px 0;
+	width: 100%;
+    border-top: 1px solid #9e9e9e;
+    &:last-child {
+        border-bottom: 1px solid #9e9e9e;
+        margin-bottom: 30px;
+    }
+    @media only screen and (min-width: 768px) {
+        &:nth-child(1)::before {
+            width: 600px;
+        }
+        &::after {
+            width: 600px;
+        }
+    }
+    @media only screen and (min-width: 960px) {
+        &:nth-child(1)::before {
+             width: 960px;
+        }
+        &::after {
+            width: 960px;
+        }
+    }
+}
+
+.Form-Item-block {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    align-items: flex-start;
+    @media only screen and (min-width: 960px) {
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+}
+.Form-Item-box {
+    display: flex;
+    justify-content: flex-start;
+	align-items: center;
+    width: 100%;
+    position: relative;
+    @media only screen and (min-width: 768px) {
+        justify-content: flex-start;
+    }
+    @media only screen and (min-width: 960px) {
+        width: 600px;
+    }
+}
+.Form-Item-Label {
+    margin: 0 0 10px;
+    font-size: 16px;
+    line-height: 1;
+    @media only screen and (min-width: 768px) {
+        font-size: 16px;
+    }
+    @media only screen and (min-width: 960px) {
+        font-size: 18px;
+        margin: 0;
+    }
+}
+.mandatory {
+    font-size: 70%;
+    margin-left: 10px;
+    vertical-align: top;
+    color: #bd0303;
+}
+.sub_areaText {
+    margin: 0 5px;
+}
+.radio-box {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 0;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 20px;
+    @media only screen and (min-width: 768px) {
+        margin-left: 20px;
+        justify-content: flex-start;
+        margin-top: 0px;
+        margin-left: 20px;
+        width: 180px;
+    }
+}
+.choice {
+    margin: 0;
+}
+input {
+    position: relative;
+}
+.mw_wp_form .error {
+    font-size: 12px;
+    color: #B70000;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.error-box {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.error-box-auto {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    width: auto;
+}
+.Form-Item-Input01 {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid #777;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    @media only screen and (min-width: 960px) {
+        width: 100%;
+	    height: 40px;
+    }
+}
+.Form-Item-Input02 {
+	margin-right: 5%;
+	width: 90%;
+	border-radius: 5px;
+    height: 40px;
+    border: 1px solid #777;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    @media only screen and (min-width: 960px) {
+        margin-right: 20px;
+        width: 200px;
+        height: 40px;
+    }
+}
+.Form-Item-Input03 {
+	width: 90%;
+	border-radius: 5px;
+    height: 40px;
+    border: 1px solid #777;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    @media only screen and (min-width: 960px) {
+        width: 200px;
+	    height: 40px;
+    }
+}
+#telephone-flex {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    @media only screen and (min-width: 768px) {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+.mwform-tel-field {
+    width: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+.mwform-tel-field .telephone {
+	width: 80px!important;
+	border-radius: 5px;
+    height: 40px;
+    border: 1px solid #777;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    @media only screen and (min-width: 960px) {
+        width: 60px!important;
+    }
+}
+.mwform-tel-field .telephone:nth-child(2){
+	margin: 0 10px;
+}
+.mwform-tel-field .telephone:nth-child(3){
+	margin-left: 10px;
+}
+.mwform-tel-field .telephone:nth-child(2),.mwform-tel-field .telephone:nth-child(3) {
+	width: 120px!important;
+	border-radius: 5px;
+    height: 40px;
+    border: 1px solid #777;
+    font-size: 16px;
+    padding: 10px;
+    @media only screen and (min-width: 960px) {
+        width: 100px!important;
+    }
+}
+.form-line {
+    margin-bottom: 15px;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    justify-content: flex-start;
+}
+.Form-Item-Textarea {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid #777;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 10px;
+    text-align: justify;
+    @media only screen and (min-width: 960px) {
+        width: 600px;
+    }
+}
+.sub_areabutton {
+    display: flex;
+    align-items: center;
+    @media only screen and (min-width: 768px) {
+        font-size: 21px;
+    }
+}
+.check-text p {
+    font-size: 13px;
+    a {
+        color: #fd6c02;
+        text-decoration: underline;
+      }
+}
+label {
+    font-size: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: auto;
+    margin: 0;
+    justify-content: center;
+}
+label#doui {
+    margin: 30px auto;
+}
+#joukyou {
+    font-size: 16px;
+    padding: 5px 10px;
+    width: 120px;
+}
+.check-text {
+    text-align: center;
+    padding-top: 0;
+}
+.check-text p {
+    font-size: 16px;
+}
+.check-text p span {
+    color: #ff9305 ;
+}
+.checkbox {
+	margin: 0 5px 0 0;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    @media only screen and (min-width: 768px) {
+        width: 30px;
+        height: 30px;
+    }
+}
+#kakunin {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+input[type="submit"] {
+    -webkit-appearance: none;
+    border-radius: 14px;
+    box-sizing: border-box;
+    font-size: 13px;
+    @media only screen and (min-width: 960px) {
+        font-size: 16px;
+    }
+}
+.button {
+    transition: background-color 2s;
+    display: block;
+    transform-origin: 0 0 0;
+    background: linear-gradient(90deg, #ffe204, #ff9305);
+    overflow: hidden;
+    position: relative;
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.6));
+    transform: translateZ(0);
+    cursor: pointer;
+    color: #fff;
+    margin: 0;
+    width: 200px;
+    text-decoration: none;
+    border: none;
+    padding: 14px 0;
+    font-size: 13px;
+    height: 65px;
+    @media only screen and (min-width: 768px) {
+        width: 240px;
+        font-size: 16px;
+    }
+    @media only screen and (min-width: 960px) {
+        width: 300px;
+    }
+}
+.backbtn{
+    border-radius: 14px;
+    box-sizing: border-box;
+    transition: background-color 2s;
+    display: block;
+    transform-origin: 0 0 0;
+    background: linear-gradient(90deg, #abaaaa, #626262);
+    overflow: hidden;
+    position: relative;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
+    transform: translateZ(0);
+    cursor: pointer;
+    color: #fff;
+    margin: 0 15px 0 0;
+    width: 140px;
+    text-decoration: none;
+    border: none;
+    padding: 14px 0;
+    font-size: 13px;
+    height: 65px;
+    @media only screen and (min-width: 768px) {
+        width: 160px;
+        font-size: 16px;
+    }
+}

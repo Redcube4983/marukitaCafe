@@ -1,0 +1,61 @@
+@charset "UTF-8";
+main{
+    padding: 100px 15px;
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+        color: #395700;
+        font-family: "Sawarabi Mincho";
+        text-align: center;
+      }
+    h2 {
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #395700;
+        font-family: "Sawarabi Mincho";
+    }
+    p{
+        font-size: 1.4rem;
+        line-height: 2;
+        margin-bottom: 30px;
+    }
+    ol, ul {
+        box-sizing: border-box;
+        line-height: 2;
+        font-size: 1.3rem;
+        margin-bottom: 20px;	
+        li {
+            list-style-type: none;
+            counter-increment: cnt;
+            margin-left: 3.4em;
+            text-indent: -3.4em;
+        }
+        li::before {
+            content: "（ " counter(cnt) " ）";
+        }
+        @media screen and (min-width:960px){
+            padding-left: 1.6rem;
+            font-size: 1.6rem;    
+        }
+      }
+    @media screen and (min-width:768px){
+        padding: 100px 30px;
+    }
+    @media screen and (min-width:960px){
+        padding: 120px 30px;
+        max-width: 960px;
+        h1 {
+            font-size: 2.8rem;
+          }
+        h2 {
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.6rem;
+        }
+    }
+    @media screen and (min-width:1280px){
+
+    }
+}

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+main {
+  padding: 100px 15px;
+}
+main h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #395700;
+  font-family: "Sawarabi Mincho";
+  text-align: center;
+}
+main h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #395700;
+  font-family: "Sawarabi Mincho";
+}
+main p {
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+main ol, main ul {
+  box-sizing: border-box;
+  line-height: 2;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+main ol li, main ul li {
+  list-style-type: none;
+  counter-increment: cnt;
+  margin-left: 3.4em;
+  text-indent: -3.4em;
+}
+main ol li::before, main ul li::before {
+  content: "（ " counter(cnt) " ）";
+}
+@media screen and (min-width: 960px) {
+  main ol, main ul {
+    padding-left: 1.6rem;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  main {
+    padding: 100px 30px;
+  }
+}
+@media screen and (min-width: 960px) {
+  main {
+    padding: 120px 30px;
+    max-width: 960px;
+  }
+  main h1 {
+    font-size: 2.8rem;
+  }
+  main h2 {
+    font-size: 2rem;
+  }
+  main p {
+    font-size: 1.6rem;
+  }
+}/*# sourceMappingURL=page.css.map */

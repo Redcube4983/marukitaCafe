@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+.mail-kakunin{
+    display: none;
+}
+.check-text {
+    display: none;
+    text-align: center;
+    padding-top: 0;
+  }
+#kakunin {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+input[type="submit"] {
+    -webkit-appearance: none;
+    border-radius: 14px;
+    box-sizing: border-box;
+    font-size: 18px;
+    @media only screen and (min-width: 960px) {
+        font-size: 20px;
+    }
+}
+.button {
+    transition: background-color 2s;
+    display: block;
+    transform-origin: 0 0 0;
+    background: linear-gradient(90deg, #ffe204, #ff9305);
+    overflow: hidden;
+    position: relative;
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.6));
+    cursor: pointer;
+    color: #fff;
+    margin: 0;
+    width: 200px;
+    text-decoration: none;
+    border: none;
+    padding: 14px 0;
+    font-size: 13px;
+    height: 65px;
+    @media only screen and (min-width: 768px) {
+        width: 240px;
+        font-size: 16px;
+    }
+    @media only screen and (min-width: 960px) {
+        width: 300px;
+    }
+}
+.backbtn{
+    border-radius: 14px;
+    box-sizing: border-box;
+    transition: background-color 2s;
+    display: block;
+    transform-origin: 0 0 0;
+    background: linear-gradient(90deg, #abaaaa, #626262);
+    overflow: hidden;
+    position: relative;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
+    cursor: pointer;
+    color: #fff;
+    margin: 0 15px 0 0;
+    width: 140px;
+    text-decoration: none;
+    border: none;
+    padding: 14px 0;
+    font-size: 18px;
+    height: 65px;
+    @media only screen and (min-width: 768px) {
+        width: 160px;
+        font-size: 20px;
+    }
+}
