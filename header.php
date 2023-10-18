@@ -63,13 +63,11 @@
         <li class="sp-tab"><a href="<?php echo esc_url( home_url( '/privacy-policy/') ); ?>">プライバシーポリシー</a></li>
         <li class="sp-tab"><a href="<?php echo esc_url( home_url( '/contact/') ); ?>">お問い合わせ</a></li>
         <li>
-          <div><img src="<?php echo get_template_directory_uri(); ?>/images" alt=""></div>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.svg" alt="Instagram_Icon インスタグラムアイコン">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icon_X.svg" alt="X_Icon エックスアイコン">
         </li>
         <li>
-          <div class="sns_icon_wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.svg" alt="Instagram_Icon インスタグラムアイコン">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/icon_X.svg" alt="X_Icon エックスアイコン">
-          </div>
+          <div class="sns_icon_wrap"><img src="<?php echo get_template_directory_uri(); ?>/images/" alt=""></div>
           <img src="/" alt="">
         </li>
         <li>
