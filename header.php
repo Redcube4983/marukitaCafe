@@ -63,7 +63,7 @@
         <li class="sp-tab"><a href="<?php echo esc_url( home_url( '/privacy-policy/') ); ?>">プライバシーポリシー</a></li>
         <li class="sp-tab"><a href="<?php echo esc_url( home_url( '/contact/') ); ?>">お問い合わせ</a></li>
         <li>
-          <div class="sns_wrap"><img src="<?php echo get_template_directory_uri(); ?>/images/" alt=""></div>
+          <div><img src="" alt=""></div>
         </li>
         <li>
           <div class="sns_icon_wrap"><img src="<?php echo get_template_directory_uri(); ?>/images/" alt=""></div>
