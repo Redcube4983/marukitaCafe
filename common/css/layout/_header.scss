@@ -54,9 +54,9 @@ header {
     font-size: 1.2rem;
     margin-left: 15px;
 }
-#header-right{
+
+#header-right {
     display: none;
-    background-image: url(common/images/sp-menu-bg.jpg);
     background-size: auto;
     position: fixed;
     width: 100%;
@@ -67,11 +67,10 @@ header {
     overflow-y: auto;
     height: calc(100vh - 60px);
     background-repeat: repeat;
+    background-color: #fff;
     height: calc((var(--vh) * 100) - 60px);
     height: -webkit-fill-available;
-    &.open{ 
-        height: calc((var(--vh) * 100) - 60px);
-    }
+}
     #global-nav{
         display: flex;
         width: 100%;

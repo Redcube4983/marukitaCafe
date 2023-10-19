@@ -383,7 +383,7 @@ header::before {
 }
 #header-right #global-nav li a {
   font-size: 1.8rem;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-family: "Sawarabi Mincho";
 }
