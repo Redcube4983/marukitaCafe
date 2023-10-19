@@ -62,9 +62,11 @@
         <li class="sp-tab"><a href="<?php echo esc_url( home_url( '/about/') ); ?>">運営会社</a></li>
         <li class="sp-tab"><a href="<?php echo esc_url( home_url( '/privacy-policy/') ); ?>">プライバシーポリシー</a></li>
         <li class="sp-tab"><a href="<?php echo esc_url( home_url( '/contact/') ); ?>">お問い合わせ</a></li>
-        <li class="icon_wrap">
-          <img src="<?php echo get_template_directory_uri(); ?>/common/images/icon_insta.svg" alt="Instagram_Icon インスタグラムアイコン">
-          <img src="<?php echo get_template_directory_uri(); ?>/common/images/icon_X.svg" alt="X_Icon エックスアイコン">
+        <li class="sns_icon">
+          <div class="sns_icon_wrap">
+            <img src="<?php echo get_template_directory_uri(); ?>/common/images/icon_insta.svg" alt="Instagram_Icon インスタグラムアイコン">
+            <img src="<?php echo get_template_directory_uri(); ?>/common/images/icon_X.svg" alt="X_Icon エックスアイコン">
+          </div>
         </li>
       </ul>
 
