@@ -387,8 +387,13 @@ header::before {
   text-decoration: none;
   font-family: "Sawarabi Mincho";
 }
+#header-right #global-nav .sns_icon_wrap {
+  display: flex;
+  justify-content: space-around;
+}
 #header-right #global-nav .sns_icon_wrap a {
   width: 50px;
+  display: block;
 }
 @media screen and (min-width: 960px) {
   #header-right {
