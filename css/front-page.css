@@ -153,8 +153,7 @@ section ul li.menu-list .menu-image::before {
 section ul li.menu-list .menu-image .menu-images {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;

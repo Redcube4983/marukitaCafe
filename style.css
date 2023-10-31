@@ -38,6 +38,8 @@ sup {
 *,
 *:before,
 *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
@@ -89,6 +91,8 @@ q:after {
 blockquote,
 q {
   -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
   hyphens: none;
   quotes: none;
 }
@@ -341,8 +345,7 @@ header::before {
 #site-logo a .site-logo {
   width: auto;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .header-text {
@@ -366,9 +369,6 @@ header::before {
   height: calc(var(--vh) * 100 - 60px);
   height: -webkit-fill-available;
 }
-#header-right.open {
-  height: calc(var(--vh) * 100 - 60px);
-}
 #header-right #global-nav {
   display: flex;
   width: 100%;
@@ -383,9 +383,12 @@ header::before {
 }
 #header-right #global-nav li a {
   font-size: 1.8rem;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   font-family: "Sawarabi Mincho";
+}
+#header-right #global-nav .sns_icon_wrap a {
+  width: 50px;
 }
 @media screen and (min-width: 960px) {
   #header-right {
@@ -557,8 +560,7 @@ footer #footer-info a {
 footer #footer-info a .site-logo {
   width: auto;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 footer #footer-info h3 {
   font-size: 1.6rem;
