@@ -85,7 +85,7 @@ header {
             margin: 10px auto;
             a {
                 font-size: 1.8rem;
-                color: #fff;
+                color: #000;
                 text-decoration: none;
                 font-family: "Sawarabi Mincho";
               }
@@ -93,8 +93,11 @@ header {
         .sns_icon_wrap {
             display: flex;
             justify-content: space-between;
+            .sns_icon_wrap {
+                width: 90px;
+              }
             a {
-                width: 50px;
+                width: 40px;
                 display: block;
             }
         }
