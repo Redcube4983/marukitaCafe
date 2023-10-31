@@ -383,7 +383,7 @@ header::before {
 }
 #header-right #global-nav li a {
   font-size: 1.8rem;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-family: "Sawarabi Mincho";
 }
@@ -391,8 +391,11 @@ header::before {
   display: flex;
   justify-content: space-between;
 }
+#header-right #global-nav .sns_icon_wrap .sns_icon_wrap {
+  width: 90px;
+}
 #header-right #global-nav .sns_icon_wrap a {
-  width: 50px;
+  width: 40px;
   display: block;
 }
 @media screen and (min-width: 960px) {
