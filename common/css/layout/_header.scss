@@ -90,8 +90,10 @@ header {
                 font-family: "Sawarabi Mincho";
               }
         }
-        .sns_icon_wrap a {
-            width: 50px;
+        .sns_icon_wrap {
+            a {
+                width: 50px;
+            }
         }
     }
     @media screen and (min-width:960px){
