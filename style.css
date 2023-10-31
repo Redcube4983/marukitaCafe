@@ -389,7 +389,7 @@ header::before {
 }
 #header-right #global-nav .sns_icon_wrap {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 #header-right #global-nav .sns_icon_wrap a {
   width: 50px;
