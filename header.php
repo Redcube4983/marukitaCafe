@@ -10,6 +10,7 @@
 <meta name="format-detection" content="telephone=no,address=no,email=no">
 <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/common/images/favicon.png">
 <link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/common/css/swiper-bundle.min.css"/>
 <?php if( is_front_page() ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
 <?php elseif( is_page() ): ?>
@@ -29,7 +30,7 @@
 <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/common/css/swiper-bundle.min.css"/>
+<
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1GJEG20LZ"></script>
