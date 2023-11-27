@@ -35,5 +35,6 @@ window.addEventListener('resize', () => {
 setFillHeight();
 });
 </script>
+<script src="<?php echo get_template_directory_uri(); ?>/common/js/swiper-bundle.min.js"></script>
 </body>
 </html>
