@@ -58,8 +58,13 @@ section {
   flex-flow: wrap;
 }
 @media only screen and (min-width: 960px) {
+  #fv {
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 960px) {
   #fv .swiper {
-    width: 49.5%;
+    width: 64%;
     margin: 0;
   }
 }
@@ -79,11 +84,8 @@ section {
 }
 @media only screen and (min-width: 960px) {
   #fv .fv_sub_wrap {
-    width: 49.5%;
+    width: 35%;
   }
-}
-#fv .sub_link_wrap {
-  margin-top: 10px;
 }
 #fv .sub_link_wrap img {
   width: 100%;
@@ -94,13 +96,42 @@ section {
     width: 100%;
   }
 }
-@media only screen and (min-width: 768px) {
-  #fv .sub_link_wrap01, #fv .sub_link_wrap02 {
+#fv .sub_link_wrap01 {
+  margin-top: 10px;
+}
+@media only screen and (min-width: 768px) and (min-width: 768px) {
+  #fv .sub_link_wrap01 {
     width: 49.4%;
   }
 }
+@media only screen and (min-width: 768px) and (min-width: 960px) {
+  #fv .sub_link_wrap01 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 960px) {
+  #fv .sub_link_wrap01 {
+    margin-top: 0;
+  }
+}
+#fv .sub_link_wrap02 {
+  margin-top: 10px;
+}
+@media only screen and (min-width: 768px) and (min-width: 768px) {
+  #fv .sub_link_wrap02 {
+    width: 49.4%;
+  }
+}
+@media only screen and (min-width: 768px) and (min-width: 960px) {
+  #fv .sub_link_wrap02 {
+    width: 100%;
+  }
+}
+#fv .sub_link_wrap03 {
+  margin-top: 10px;
+}
 @media only screen and (min-width: 768px) {
-  #fv .img_group .sub_link_wrap03 {
+  #fv .sub_link_wrap03 {
     width: 100%;
   }
 }
@@ -108,7 +139,6 @@ section {
   #fv .img_group {
     display: flex;
     justify-content: space-between;
-    flex-flow: wrap;
   }
 }
 @media only screen and (min-width: 960px) {
