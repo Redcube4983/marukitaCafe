@@ -51,4 +51,68 @@ section {
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 60px;
+}
+
+#fv {
+  display: flex;
+  flex-flow: wrap;
+}
+@media only screen and (min-width: 960px) {
+  #fv .swiper {
+    width: 49.5%;
+    margin: 0;
+  }
+}
+#fv .fv_slide_link_wrap img {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  #fv .fv_slide_link_wrap img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #fv .fv_sub_wrap {
+    display: flex;
+    flex-flow: wrap;
+  }
+}
+@media only screen and (min-width: 960px) {
+  #fv .fv_sub_wrap {
+    width: 49.5%;
+  }
+}
+#fv .sub_link_wrap {
+  margin-top: 10px;
+}
+#fv .sub_link_wrap img {
+  width: 100%;
+}
+@media only screen and (min-width: 960px) {
+  #fv .sub_link_wrap {
+    flex-flow: inherit;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #fv .sub_link_wrap01, #fv .sub_link_wrap02 {
+    width: 49.4%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #fv .img_group .sub_link_wrap03 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #fv .img_group {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+  }
+}
+@media only screen and (min-width: 960px) {
+  #fv .img_group {
+    flex-flow: inherit;
+  }
 }/*# sourceMappingURL=front-page.css.map */

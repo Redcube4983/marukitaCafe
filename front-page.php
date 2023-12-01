@@ -9,19 +9,48 @@ Template Name: front-page
     <section id="fv">
     <div class="swiper">
         <div class="swiper-wrapper">
-        <picture class="swiper-slide">
-			<source media="(max-width: 959px)" srcset="<?php echo get_template_directory_uri(); ?>/images/fv_slide01_sp.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/lp/lp-main-sp.jpg 2x">
-            <source media="(min-width: 960px)" srcset="<?php echo get_template_directory_uri(); ?>/images/lp/lp-main-pc.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/lp/lp-main-pc.jpg 2x">
-			<img class="lp-main" src="<?php echo get_template_directory_uri(); ?>/images/lp/lp-main.jpg" srcset="<?php echo get_template_directory_uri(); ?>/images/lp/lp-main.jpg 1x,<?php echo get_template_directory_uri(); ?>/images/lp/lp-main.jpg 2x" alt="丸北カフェ MARUKITA CAFE" width="750" height="1000">
-        </picture>
-            <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/images/fv_slide01_sp.jpg" alt="Slide 1">
-            <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/images/fv_slide02_sp.jpg" alt="Slide 2">
-            <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/images/fv_slide03_sp.jpg" alt="Slide 3">
+            <div class="fv_slide_link_wrap">
+                <a href="#">
+                <picture class="">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/fv_slide01_sp.jpg">
+                    <source media="(max-width: 959px)" srcset="<?php echo get_template_directory_uri(); ?>/images/fv_slide01_tab.jpg">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/fv_left_slide01.jpg" alt="トップ画像">
+                </picture>
+                </a>
+            </div>
+
         </div>
     </div>
     <div class="fv_sub_wrap">
-        
-        <img src="<?php echo get_template_directory_uri(); ?>/images/fv_slide01_sp.jpg" alt="" class="fv_img">
+        <div class="img_group">
+            <div class="sub_link_wrap sub_link_wrap01">
+                <a class="fv_sub01_link_wrap" href="#">
+                <picture class="slide_img_wrap">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/fv_img04_sp.jpg">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/fv_img04_tab.jpg">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/fv_right_01.jpg" alt="トップ画像">
+                </picture>
+                </a>
+            </div>
+            <div class="sub_link_wrap sub_link_wrap02">
+                <a class="fv_sub01_link_wrap" href="#">
+                <picture class="slide_img_wrap">
+                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/fv_img05_sp.jpg">
+                    <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/fv_img05_tab.jpg">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/fv_right_02.jpg" alt="トップ画像">
+                </picture>
+                </a>
+            </div>
+        </div>
+        <div class="sub_link_wrap sub_link_wrap03">
+            <a class="fv_sub01_link_wrap" href="#">
+            <picture class="slide_img_wrap">
+                <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/fv_img06_sp.jpg">
+                <source media="(max-width: 920px)" srcset="<?php echo get_template_directory_uri(); ?>/images/fv_img06_tab.jpg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/fv_right_03.jpg" alt="トップ画像">
+            </picture>
+            </a>
+        </div>
     </div>
     </section>
     <section id="contact">

@@ -43,5 +43,62 @@ section {
     margin-bottom: 60px;
   }
 
-
+  #fv {
+    display: flex;
+    flex-flow: wrap;
+    .swiper {
+        @media only screen and (min-width: 960px) {
+            width: 49.5%;
+            margin: 0;
+        }
+      }
+    .fv_slide_link_wrap {
+        img {
+            width: 100%;
+            @media only screen and (min-width: 768px) {
+                width: 100%;
+            }
+        }
+      }
+    .fv_sub_wrap {
+        @media only screen and (min-width: 768px) {
+            display: flex;
+            flex-flow: wrap;
+        }
+        @media only screen and (min-width: 960px) {
+            width: 49.5%; 
+        }
+    }
+    .sub_link_wrap {
+        margin-top: 10px;
+        img {
+            width: 100%;
+        }
+        @media only screen and (min-width: 960px) {
+            flex-flow: inherit;
+            width: 100%;
+        }            
+    }
+    .sub_link_wrap01, .sub_link_wrap02 {
+        @media only screen and (min-width: 768px) {
+            width: 49.4%;
+        }
+    }
+    .img_group {
+        .sub_link_wrap03 {
+            @media only screen and (min-width: 768px) {
+                width: 100%;
+            }        
+        }
+        @media only screen and (min-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+            flex-flow: wrap;
+        }
+        @media only screen and (min-width: 960px) {
+            flex-flow: inherit;
+        }
+        
+    }
+  }
   
