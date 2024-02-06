@@ -53,6 +53,18 @@ Template Name: front-page
         </div>
     </div>
     </section>
+
+    <!-- <section class="wave">
+        <div class="wave_wrap">
+            <span class="is_wave"></span>
+        </div>
+    </section> -->
+
+
+  
+
+
+
     <section id="contact">
         <h2>ご予約・お問い合わせ</h2> 
         <p class="mail"><a href="<?php echo esc_url( home_url( '/contact/') ); ?>">メールはこちらから</a></p>
