@@ -53,13 +53,28 @@ Template Name: front-page
         </div>
     </div>
     </section>
+    <section id="contents01">
+        <div class="lounge_wrap">
+            <div class="sub_content_ttl">
+                <h2 class="en">LOUNGE MENU / GOODS</h2>
+                <h3 class="jp">商品情報</h3>
+            </div>
+            <div class="sub_contents_wrap">
+                <div class="beverage_wrap">
+                    <div class="tea">
+                        <p>毎日の茶カテキンで、<br>より楽しく、より若く</p>
+                        <div class="slide_img_wrap">
+                            <img src="/" alt="">
+                            <h4 class="sub_head">全国の銘茶</h4>
+                            <a href="/" class="link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <!-- <section class="wave">
-        <div class="wave_wrap">
-            <span class="is_wave"></span>
+            
         </div>
-    </section> -->
-
+    </section>
 
   
 
