@@ -56,6 +56,7 @@ section {
 #fv {
   display: flex;
   flex-flow: wrap;
+  height: calc(100vh - 60px);
 }
 @media only screen and (min-width: 960px) {
   #fv {
@@ -96,39 +97,10 @@ section {
     width: 100%;
   }
 }
-#fv .sub_link_wrap01 {
-  margin-top: 10px;
-}
-@media only screen and (min-width: 768px) and (min-width: 768px) {
-  #fv .sub_link_wrap01 {
-    width: 49.4%;
-  }
-}
-@media only screen and (min-width: 768px) and (min-width: 960px) {
-  #fv .sub_link_wrap01 {
-    width: 100%;
-  }
-}
 @media only screen and (min-width: 960px) {
   #fv .sub_link_wrap01 {
     margin-top: 0;
   }
-}
-#fv .sub_link_wrap02 {
-  margin-top: 10px;
-}
-@media only screen and (min-width: 768px) and (min-width: 768px) {
-  #fv .sub_link_wrap02 {
-    width: 49.4%;
-  }
-}
-@media only screen and (min-width: 768px) and (min-width: 960px) {
-  #fv .sub_link_wrap02 {
-    width: 100%;
-  }
-}
-#fv .sub_link_wrap03 {
-  margin-top: 10px;
 }
 @media only screen and (min-width: 768px) {
   #fv .sub_link_wrap03 {

@@ -10,40 +10,14 @@
 <meta name="format-detection" content="telephone=no,address=no,email=no">
 <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/common/images/favicon.png">
 <link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/common/css/swiper-bundle.min.css"/>
-<?php if( is_front_page() ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
-<?php elseif( is_page() ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
-  <?php if( is_page (array('contact','kakunin','error','thanks')) ): ?>
-  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/page-contact.css">
-    <?php if( is_page('kakunin') ): ?>
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/page-contact-kakunin.css">
-    <?php elseif( is_page('error') ): ?>
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/page-contact-error.css">
-    <?php endif; ?>
-  <?php endif; ?>
-<?php else: ?>
-<?php endif; ?>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1GJEG20LZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Q1GJEG20LZ');
-</script>
-
-</head>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/common/css/swiper-bundle.min.css">
+<!-- jquery 3.6.1 -->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 <?php wp_head(); ?>
+</head>
 <body>
 <header>
     <div id="site-logo">

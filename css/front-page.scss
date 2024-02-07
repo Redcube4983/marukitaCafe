@@ -46,6 +46,7 @@ section {
 #fv {
     display: flex;
     flex-flow: wrap;
+    height: calc(100vh - 60px);
     @media only screen and (min-width: 960px) {
         justify-content: space-between;
     }
@@ -82,9 +83,6 @@ section {
         }            
     }
 
-    @mixin mt10 {
-        margin-top: 10px;
-    }
     @mixin img_group_with {
         @media only screen and (min-width: 768px) {
             width: 49.4%;
@@ -95,22 +93,17 @@ section {
     }
 
     .sub_link_wrap01 {
-        @include mt10();
         @media only screen and (min-width: 768px) {
-            @include img_group_with();
         }
         @media only screen and (min-width: 960px) {
             margin-top: 0;
         }
     }
     .sub_link_wrap02 {
-        @include mt10();
         @media only screen and (min-width: 768px) {
-            @include img_group_with();
         }
     }
     .sub_link_wrap03 {
-        @include mt10();
         @media only screen and (min-width: 768px) {
             width: 100%;
         } 
@@ -125,34 +118,3 @@ section {
         }
     }
 }
-
-
-// .wave_wrap {
-//     display: inline;
-//     position: relative;
-//   span {
-//     position: absolute;
-//     bottom: 0;
-//     left: 0;
-//     width: 100%;
-//     height: .1em;
-//     overflow: hidden;
-//     display: block;
-//     &::after {
-//         content: "";
-//         display: block;
-//         position: absolute;
-//         width: 2em;
-//         height: 100%;
-//         top: 0;
-//         left: 0;
-//         background-image: url("/images/wave.png");
-//         background-size: auto 100%;
-//         background-position: 0 0;
-//         background-repeat: no-repeat;
-//         -webkit-animation: wave 5000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) 0ms infinite normal;
-//         animation: wave 5000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) 0ms infinite normal;
-//     }
-//     }
-// }
-
