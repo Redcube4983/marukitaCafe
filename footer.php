@@ -1,9 +1,39 @@
 <footer>
-    <div id="footer-info">
-    <a href="<?php echo esc_url( home_url( '/') ); ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/common/images/logo.png"></a>
-    <h3>営業時間</h3>
-    <p>8:00-21:00［LO 20:30］土日祝日休</p>
-    <p>LUNCH 11:30~13:30</p>
+    <div id="ornament_slide">
+        <ul class="slideshow">
+            <li class="content"></li>
+            <li class="content"></li>
+            <li class="content"></li>
+            <li class="content"></li>
+            <li class="content"></li>
+            <li class="content"></li>
+        </ul>
+    </div>
+    <div id="footer_info">
+      <div class="footer_wrap">
+        <div class="contact_wrap">
+          <h2>お問い合わせ</h2>
+          <div class="button">
+            <p>お問い合わせはこちら</p>
+            <img src="<?php echo get_template_directory_uri(); ?>/common/images/mail_icon.svg" alt="">
+          </div>
+        </div>
+        <div class="open_wrap">
+          <img src="/images/shop_img.jpg" alt="">
+          <div class="text_wrap">
+            <h4>営業時間</h4>
+            <p>8:00-21:00［LO 20:30］土日祝日休<br>LUNCH 11:30~13:30</p>
+          </div>
+        </div>
+        <div class="sitemap">
+          <ul>
+            <li><a href="<?php echo get_template_directory_uri(); ?>">全国の銘茶</a></li>
+            <li><a href="<?php echo get_template_directory_uri(); ?>">特製和菓子</a></li>
+            <li><a href="<?php echo get_template_directory_uri(); ?>">お茶漬け</a></li>
+            <li><a href="<?php echo get_template_directory_uri(); ?>">ご自宅・贈り物に</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
     <p class="copyright">© <?php echo date_i18n('Y'); ?> MARUKITA CAFE All rights reserved.</p>
 </footer>
@@ -20,7 +50,7 @@ let vw = window.innerWidth;
 
 window.addEventListener('resize', () => {
   if (vw === window.innerWidth) {
-  　// 画面の横幅にサイズ変動がないので処理を終える
+   // 画面の横幅にサイズ変動がないので処理を終える
     return;
   }
 

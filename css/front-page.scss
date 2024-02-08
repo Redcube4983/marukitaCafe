@@ -1,46 +1,22 @@
 @charset "UTF-8";
 main{
     text-align: center;
-}
-#top-text{
-    margin: 30px auto;
-    text-align: center;
-    .top-title{
-        font-size: 2rem;
-        color: #000;
-        font-weight: bold;
-        font-family: "Sawarabi Mincho"; 
-        @media screen and (min-width:960px){
-            font-size: 3.2rem;
-        }
-        @media screen and (min-width:1280px){
-            font-size: 5rem;
-        }
-    }
-    .top-text{
-        font-size: 16px;
-        color: #395700;
-        font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
-        @media screen and (min-width:960px){
-            font-size: 2.4rem;
-        }
-        @media screen and (min-width:1280px){
-            font-size: 3.2rem;
-        }
+    img {
+        width: 100%;
     }
 }
-.lp-main {
-    width: 100%;
-    height: auto;
-    vertical-align: bottom;
-    margin: 0 auto 5%;
-    text-align: center;
+@mixin p_side {
+    padding: o 15px;
 }
+@mixin ff-jp {
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+}
+@mixin ff-en {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
 section {
-    padding: 0 15px;
-    width: 100%;
     box-sizing: border-box;
-    margin-bottom: 60px;
   }
 
 #fv {
@@ -74,24 +50,12 @@ section {
         }
     }
     .sub_link_wrap {
-        img {
-            width: 100%;
-        }
+        margin-top: 10px;
         @media only screen and (min-width: 960px) {
             flex-flow: inherit;
             width: 100%;
         }            
     }
-
-    @mixin img_group_with {
-        @media only screen and (min-width: 768px) {
-            width: 49.4%;
-        }   
-        @media only screen and (min-width: 960px) {
-            width: 100%;
-        }
-    }
-
     .sub_link_wrap01 {
         @media only screen and (min-width: 768px) {
         }
@@ -116,5 +80,13 @@ section {
         @media only screen and (min-width: 960px) {
             flex-flow: inherit;
         }
+    }
+
+}
+
+.img_box {
+    background-color: #000;
+    img {
+        opacity: 0.8;
     }
 }

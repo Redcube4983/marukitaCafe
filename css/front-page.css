@@ -1,56 +1,12 @@
 main {
   text-align: center;
 }
-
-#top-text {
-  margin: 30px auto;
-  text-align: center;
-}
-#top-text .top-title {
-  font-size: 2rem;
-  color: #000;
-  font-weight: bold;
-  font-family: "Sawarabi Mincho";
-}
-@media screen and (min-width: 960px) {
-  #top-text .top-title {
-    font-size: 3.2rem;
-  }
-}
-@media screen and (min-width: 1280px) {
-  #top-text .top-title {
-    font-size: 5rem;
-  }
-}
-#top-text .top-text {
-  font-size: 16px;
-  color: #395700;
-  font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
-}
-@media screen and (min-width: 960px) {
-  #top-text .top-text {
-    font-size: 2.4rem;
-  }
-}
-@media screen and (min-width: 1280px) {
-  #top-text .top-text {
-    font-size: 3.2rem;
-  }
-}
-
-.lp-main {
+main img {
   width: 100%;
-  height: auto;
-  vertical-align: bottom;
-  margin: 0 auto 5%;
-  text-align: center;
 }
 
 section {
-  padding: 0 15px;
-  width: 100%;
   box-sizing: border-box;
-  margin-bottom: 60px;
 }
 
 #fv {
@@ -88,8 +44,8 @@ section {
     width: 35%;
   }
 }
-#fv .sub_link_wrap img {
-  width: 100%;
+#fv .sub_link_wrap {
+  margin-top: 10px;
 }
 @media only screen and (min-width: 960px) {
   #fv .sub_link_wrap {
@@ -117,4 +73,11 @@ section {
   #fv .img_group {
     flex-flow: inherit;
   }
+}
+
+.img_box {
+  background-color: #000;
+}
+.img_box img {
+  opacity: 0.8;
 }/*# sourceMappingURL=front-page.css.map */

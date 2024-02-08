@@ -330,7 +330,7 @@ header::before {
 }
 
 #site-logo {
-  height: 40px;
+  height: 35px;
   width: auto;
   display: flex;
   flex-flow: row nowrap;
