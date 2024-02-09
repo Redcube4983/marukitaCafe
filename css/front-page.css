@@ -1,3 +1,4 @@
+@charset "UTF-8";
 main {
   text-align: center;
 }
@@ -12,7 +13,6 @@ section {
 #fv {
   display: flex;
   flex-flow: wrap;
-  height: calc(100vh - 60px);
 }
 @media only screen and (min-width: 960px) {
   #fv {
@@ -75,9 +75,68 @@ section {
   }
 }
 
+.sub_link_wrap {
+  position: relative;
+}
+.sub_link_wrap .fv_subLink_wrap h3 {
+  font-family: "shippori-mincho", "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-weight: 400;
+  position: absolute;
+  color: #fff;
+  font-size: 2rem;
+  width: max-content;
+  top: 20px;
+  left: 20px;
+}
+.sub_link_wrap .under_box span {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
 .img_box {
   background-color: #000;
 }
-.img_box img {
-  opacity: 0.8;
+
+.sub_content_ttl {
+  background-color: #0B5300;
+  color: #fff;
+  padding: 15px;
+  margin-top: 50px;
+}
+.sub_content_ttl .en {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+}
+.sub_content_ttl .jp {
+  font-family: "shippori-mincho", "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.beverage {
+  margin: 30px 15px 0;
+  position: relative;
+}
+.beverage p {
+  text-align: left;
+  font-size: 1.3rem;
+  margin: 0 0 10px 15px;
+}
+
+.img_wrap {
+  position: relative;
+}
+.img_wrap .sub_head {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 15px;
+  background-color: #0B5300;
+  font-size: 1.3rem;
+  color: #fff;
 }/*# sourceMappingURL=front-page.css.map */
